@@ -4,10 +4,10 @@ url: "/ole-schluter/"
 current: false
 role: ""
 weight: 100
-image: "/images/uploads/2024/10/ole.jpg"
+image: "/images/profile/ole-schlueter.jpg"
 ---
 
-## Ole Yannik Schlüter
+# Ole Yannik Schlüter
 
 Research Assistant in the work group Machine Learning with Graphs
 

@@ -4,7 +4,7 @@ url: "/lorenz-presents-at-aaai-2025/"
 date: 2025-05-14T10:09:35
 author: "Lorenz Kummer"
 summary: "With “Crossfire: An Elastic Defense Framework for Graph Neural Networks under Bit Flip Attacks” by Lorenz Kummer, Samir Moustafa, Wilfried Gansterer and Nils Kriege, we presented a novel approach to defending Graph Neural Networks (GNNs) from Bit Flip Attacks (BFAs) at the 39th Annual AAAI Conference on Artificial Intelligence. Crossfire combines innovative techniques like saliency-based […]"
-image: "/images/uploads/2025/05/aaai_pic_small-768x735.jpg"
+image: "/images/news/lorenz-aaai-2025.jpg"
 ---
 
 With “[Crossfire: An Elastic Defense Framework for Graph Neural Networks under Bit Flip Attacks](https://ojs.aaai.org/index.php/AAAI/article/view/33979)” by *Lorenz Kummer, Samir Moustafa, Wilfried Gansterer* and *Nils Kriege*, we presented a novel approach to defending Graph Neural Networks (GNNs) from Bit Flip Attacks (BFAs) at the 39th Annual AAAI Conference on Artificial Intelligence.

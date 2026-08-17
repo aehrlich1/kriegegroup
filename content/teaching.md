@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 url: "/teaching/"
-heading: true
+layout: "teaching"
 aliases:
   - "/category/theses/"
   - "/tag/bachelor/"
@@ -38,4 +38,3 @@ Bachelor · Master · Practical Course
 ### [Your Own Idea!](/your-own-idea/)
 
 Bachelor · Master · Practical Course
-

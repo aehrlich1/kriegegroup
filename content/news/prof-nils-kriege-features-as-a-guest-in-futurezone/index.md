@@ -4,10 +4,10 @@ url: "/prof-nils-kriege-features-as-a-guest-in-futurezone/"
 date: 2024-09-28T08:33:54
 author: "Anatol Ehrlich"
 summary: "Professor Nils Kriege was featured in an article discussing how Artificial Intelligence assists in drug discovery by analyzing molecular data to identify new medications and the potential this technology offers for further development and research. For more details, you can read the article online on futurezone.at"
-image: "/images/uploads/2024/10/drugs-768x432.jpg"
+image: "/images/news/futurezone-card.jpg"
 ---
 
-![](/images/uploads/2024/10/drugs-1024x576.jpg)
+![](/images/news/futurezone.jpg)
 
 Professor Nils Kriege was featured in an article discussing how Artificial Intelligence assists in drug discovery by analyzing molecular data to identify new medications and the potential this technology offers for further development and research.
 

@@ -4,7 +4,7 @@ url: "/paper-accepted-at-icml-2025/"
 date: 2025-05-14T10:46:27
 author: "Lorenz Kummer"
 summary: "We’re thrilled to share that our paper “Weisfeiler and Leman Go Gambling: Why Expressive Lottery Tickets Win” by Lorenz Kummer, Samir Moustafa, Anatol Ehrlich, Franka Bause, Nikolaus Suess, Wilfried Gansterer and Nils Kriege has been accpted at the 42nd International Conference on Machine Learning, July 13th-19th 2025, Vancouver, Canada! This work bridges two important areas […]"
-image: "/images/uploads/2025/05/icml_logo-768x259.png"
+image: "/images/news/icml-2025-paper.png"
 ---
 
 We’re thrilled to share that our paper “Weisfeiler and Leman Go Gambling: Why Expressive Lottery Tickets Win” by *Lorenz Kummer*, *Samir Moustafa*, *Anatol Ehrlich*, *Franka Bause*, *Nikolaus Suess*, *Wilfried Gansterer* and *Nils Kriege* has been accpted at the 42nd International Conference on Machine Learning, July 13th-19th 2025, Vancouver, Canada!

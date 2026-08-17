@@ -4,7 +4,7 @@ url: "/spotlight-paper-at-icml-2026/"
 date: 2026-05-03T18:36:50
 author: "Nils Kriege"
 summary: "We are excited to share that the paper A Unifying Relational Perspective on Expressive Lottery Tickets by Lorenz Kummer, Samir Moustafa, Anatol Ehrlich, Franka Bause, Marco Nennstiel, Przemysław Andrzej Wałęga, and Nils M. Kriege has been accepted as a Spotlight at ICML 2026 in Seoul, South Korea! In this work, we study how parameter sparsity […]"
-image: "/images/uploads/2026/05/ICML-logo-768x250.png"
+image: "/images/news/icml-2026-spotlight.png"
 ---
 
 We are excited to share that the paper **A Unifying Relational Perspective on Expressive Lottery Tickets** by [Lorenz Kummer](/lorenz-kummer/), Samir Moustafa, [Anatol Ehrlich](/anatol-ehrlich/), [Franka Bause](/franka-bause/), Marco Nennstiel, Przemysław Andrzej Wałęga, and [Nils M. Kriege](/nils-kriege/) has been accepted as a Spotlight at ICML 2026 in Seoul, South Korea!

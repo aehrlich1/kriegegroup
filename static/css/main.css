@@ -153,11 +153,12 @@ tbody tr:last-child td{border-bottom:0}
 .article-content pre{overflow-x:auto;padding:1.2rem;border-radius:12px;background:#102a3a;color:#eef7fb}
 .article-content pre code{padding:0;background:none;color:inherit}
 .generic-page{max-width:1030px}
-.profile-page{max-width:1050px;padding-top:1rem}
-.profile-page .article-content>h2:first-child{margin-bottom:.25rem;font-size:clamp(2.1rem,4vw,3.4rem)}
+.profile-page{max-width:1050px;padding-top:3.5rem}
+.profile-page .article-content>h1{margin-bottom:.25rem;font-size:clamp(1.75rem,3vw,2.45rem)}
+.profile-page .article-content h2{font-size:clamp(1.3rem,2vw,1.6rem)}
 .profile-media{float:left;width:230px;margin:1.2rem 3.2rem 2rem 0}
 .profile-media>img{width:230px;aspect-ratio:3/4;margin:0;border-radius:var(--radius);box-shadow:var(--shadow);object-fit:cover}
-.profile-page .profile-media+h2{margin-top:1.2rem;padding-top:.65rem}
+.profile-page .profile-media+h1{margin-top:1.2rem;padding-top:.65rem}
 .profile-links{display:flex;justify-content:center;gap:.55rem;margin-top:1rem}
 .profile-links a{position:relative;width:36px;height:36px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:50%;background:#fff}
 .profile-links a:hover{border-color:#a8ccdf;background:var(--ice);transform:translateY(-2px)}

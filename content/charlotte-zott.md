@@ -4,10 +4,10 @@ url: "/charlotte-zott/"
 current: false
 role: ""
 weight: 100
-image: "/images/uploads/2024/10/charlotte.jpg"
+image: "/images/profile/charlotte-zott.jpg"
 ---
 
-## Charlotte Zott
+# Charlotte Zott
 
 Administration in the work group Machine Learning with Graphs
 

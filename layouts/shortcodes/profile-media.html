@@ -5,7 +5,7 @@
   <nav class="profile-links" aria-label="{{ $.Page.Title }} profiles">
     {{ range . }}
       <a href="{{ .url }}" target="_blank" rel="noreferrer noopener" title="{{ .name }}">
-        <img src="{{ printf "images/icons/%s.svg" .icon | relURL }}" alt="">
+        <img src="{{ printf "images/social-%s.svg" .icon | relURL }}" alt="">
         <span>{{ .name }}</span>
       </a>
     {{ end }}
@@ -13,4 +13,3 @@
   {{ end }}
 </aside>
 {{ end }}
-

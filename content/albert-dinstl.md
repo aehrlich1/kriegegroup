@@ -4,10 +4,10 @@ url: "/albert-dinstl/"
 current: false
 role: ""
 weight: 100
-image: "/images/uploads/2025/06/albert_dinstl.jpg"
+image: "/images/profile/albert-dinstl.jpg"
 ---
 
-## Albert Dinstl
+# Albert Dinstl
 
 Research Assistant in the work group Machine Learning with Graphs
 

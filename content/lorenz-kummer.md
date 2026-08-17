@@ -6,7 +6,7 @@ url: "/lorenz-kummer/"
 current: false
 role: ""
 weight: 100
-image: "/images/uploads/2025/09/52-DSC07042_scaled11.jpg"
+image: "/images/profile/lorenz-kummer.jpg"
 social:
   - name: "LinkedIn"
     url: "https://www.linkedin.com/in/lorenz-kummer-573a0017a/"
@@ -19,7 +19,7 @@ social:
     icon: "dblp"
 ---
 
-## Lorenz Kummer
+# Lorenz Kummer
 
 PhD Candidate in the work group Machine Learning with Graphs
 

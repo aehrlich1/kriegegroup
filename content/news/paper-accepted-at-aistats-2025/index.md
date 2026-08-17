@@ -4,7 +4,7 @@ url: "/paper-accepted-at-aistats-2025/"
 date: 2025-02-10T15:49:55
 author: "Lorenz Kummer"
 summary: "We are glad to announce our paper “On the Relationship Between Robustness and Expressivity of Graph Neural Networks” by Lorenz Kummer, Wilfried Gansterer and Nils Kriege has been accepted at the 28th International Conference on Artificial Intelligence and Statistics (AISTATS) , which will take place from 3rd – May 5th, 2025 in Mai Kaho, Thailand! […]"
-image: "/images/uploads/2025/02/1737525375195.jpeg"
+image: "/images/news/aistats-2025-paper.jpeg"
 ---
 
 We are glad to announce our paper “On the Relationship Between Robustness and Expressivity of Graph Neural Networks” by *Lorenz Kummer*, *Wilfried Gansterer* and *Nils Kriege* has been accepted at the 28th International Conference on Artificial Intelligence and Statistics (AISTATS) , which will take place from 3rd – May 5th, 2025 in Mai Kaho, Thailand!

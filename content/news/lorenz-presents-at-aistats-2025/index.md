@@ -4,7 +4,7 @@ url: "/lorenz-presents-at-aistats-2025/"
 date: 2025-05-14T10:30:48
 author: "Lorenz Kummer"
 summary: "Further raising awareness for the inherent vulnerabilities of Graph Neural Networks (GNNs) to adversarial Bit Flip Attacks (BFAs), Lorenz presented our group’s latest work “On the Relationship Between Robustness and Expressivity of Graph Neural Networks” by Lorenz Kummer, Wilfried Gansterer and Nils Kriege at the 28th International Conference on Artificial Intelligence and Statistics (AISTATS). In […]"
-image: "/images/uploads/2025/05/aisats_pic_small-768x664.jpg"
+image: "/images/news/lorenz-aistats-2025.jpg"
 ---
 
 Further raising awareness for the inherent vulnerabilities of Graph Neural Networks (GNNs) to adversarial Bit Flip Attacks (BFAs), Lorenz presented our group’s latest work “[On the Relationship Between Robustness and Expressivity of Graph Neural Networks](https://openreview.net/forum?id=enWAn9QtYz)” by *Lorenz Kummer*, *Wilfried Gansterer* and *Nils Kriege* at the 28th International Conference on Artificial Intelligence and Statistics (AISTATS).

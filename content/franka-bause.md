@@ -6,7 +6,7 @@ url: "/franka-bause/"
 current: false
 role: ""
 weight: 100
-image: "/images/uploads/2025/05/out_2.jpg"
+image: "/images/profile/franka-bause.jpg"
 social:
   - name: "LinkedIn"
     url: "https://at.linkedin.com/in/franka-bause-032111283"
@@ -22,7 +22,7 @@ social:
     icon: "dblp"
 ---
 
-## Dr. Franka Bause
+# Dr. Franka Bause
 
 Postdoc in the work group Machine Learning with Graphs
 
@@ -54,38 +54,4 @@ My research mostly centers around similarity measures for graphs, with the aim o
 
 ### Selected Publications
 
-#### [Approximating the Graph Edit Distance with Compact Neighborhood Representations](https://doi.org/10.1007/978-3-031-70362-1_18)
-
-Franka Bause, Christian Permann, Nils M. Kriege
-
-2024 ECML/PKDD (5): 300-318
-
-#### [On the Two Sides of Redundancy in Graph Neural Networks](https://doi.org/10.1007/978-3-031-70365-2_22)
-
-Franka Bause, Samir Moustafa, Johannes Langguth, Wilfried N. Gansterer, Nils M. Kriege
-
-2024, ECML/PKDD (6): 371-388,
-
-#### [EmbAssi: Embedding Assignment Costs for Similarity Search in Large Graph Databases](https://doi.org/10.1007/s10618-022-00850-3)
-
-Franka Bause, Erich Schubert, Nils M. Kriege
-
-2022, Knowl. Discov. 36(5): 1728-1755
-
-#### [Gradual Weisfeiler-Leman: Slow and Steady Wins the Race](https://proceedings.mlr.press/v198/bause22a/bause22a.pdf)
-
-Franka Bause, Nils Morten Kriege
-
-2022, LoG: 20
-
-#### [Metric Indexing for Graph Similarity Search](https://doi.org/10.48550/arXiv.2110.01283)
-
-Franka Bause, David B. Blumenthal, Erich Schubert, Nils M. Kriege
-
-2021, SISAP: 323-336
-
-#### [Computing Optimal Assignments in Linear Time for Approximate Graph Matching](https://doi.org/10.1109/ICDM.2019.00045)
-
-Nils M. Kriege, Pierre-Louis Giscard, Franka Bause, Richard C. Wilson
-
-2019, ICDM: 349-358
+{{< publication-list author="Franka Bause" >}}

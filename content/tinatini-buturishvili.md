@@ -4,14 +4,14 @@ url: "/tinatini-buturishvili/"
 current: true
 role: "External PhD Candidate"
 weight: 30
-image: "/images/uploads/2024/10/tinatini.jpg"
+image: "/images/profile/tinatini-buturishvili.jpg"
 social:
   - name: "LinkedIn"
     url: "https://at.linkedin.com/in/tina-buturishvili-75669112"
     icon: "linkedin"
 ---
 
-## Tinatini Buturishvili
+# Tinatini Buturishvili
 
 External PhD Candidate in the work group Machine Learning with Graphs
 

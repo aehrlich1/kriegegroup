@@ -4,10 +4,10 @@ url: "/lorenz-present-at-acm-sigkdd-2024/"
 date: 2024-09-12T07:29:23
 author: "Anatol Ehrlich"
 summary: "We are very excited to announce the acceptance of our most recent work, “Attacking Graph Neural Networks with Bit Flips: Weisfeiler and Leman Go Indifferent” at ACM SIGKDD 2024 in Barcelona, Spain! In this work, we explore Graph Neural Network (GNN) expressivity as a potential security vulnerability that can be exploited by attackers using gradient-based […]"
-image: "/images/uploads/2024/09/lorenz_poster-768x432.jpg"
+image: "/images/news/lorenz-kdd-2024-card.jpg"
 ---
 
-![](/images/uploads/2024/09/lorenz_presentation-1024x577.jpg)
+![](/images/news/lorenz-kdd-2024.jpg)
 
 We are very excited to announce the acceptance of our most recent work, “Attacking Graph Neural Networks with Bit Flips: Weisfeiler and Leman Go Indifferent” at ACM SIGKDD 2024 in Barcelona, Spain!\
 \

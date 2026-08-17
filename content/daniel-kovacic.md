@@ -4,10 +4,10 @@ url: "/daniel-kovacic/"
 current: true
 role: "Research Assistant"
 weight: 40
-image: "/images/uploads/2026/05/daniel_kovacic.jpeg"
+image: "/images/profile/daniel-kovacic.jpeg"
 ---
 
-## Daniel Kovacic
+# Daniel Kovacic
 
 Research Assistant in the work group Machine Learning with Graphs
 

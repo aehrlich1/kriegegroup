@@ -4,10 +4,10 @@ url: "/gunda-nitzsche/"
 current: true
 role: "Administration"
 weight: 50
-image: "/images/uploads/2026/01/gunda.jpg"
+image: "/images/profile/gunda-nitzsche.jpg"
 ---
 
-## Gunda Nitzsche
+# Gunda Nitzsche
 
 Administration in the work group Machine Learning with Graphs
 

@@ -6,7 +6,7 @@ url: "/nils-kriege/"
 current: true
 role: "Group Leader"
 weight: 10
-image: "/images/uploads/2026/05/Nils_Kriege_pcu-small2.jpg"
+image: "/images/profile/nils-kriege.jpg"
 social:
   - name: "LinkedIn"
     url: "https://www.linkedin.com/in/nils-kriege-403b95384/"
@@ -19,7 +19,7 @@ social:
     icon: "scholar"
 ---
 
-## Assoz. Prof. Dr. Nils M. Kriege
+# Assoz. Prof. Dr. Nils M. Kriege
 
 Head of the work group Machine Learning with Graphs
 

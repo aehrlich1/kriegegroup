@@ -4,10 +4,10 @@ url: "/kriegroup-website-goes-online/"
 date: 2024-11-13T08:48:49
 author: "Anatol Ehrlich"
 summary: "The kriegegroup.univie.ac.at website has officially launched on 11th November 2024. Its aim is to consolidate the information about the Machine Learning with Graphs work group to make our research more accessible to interested individuals. For the more tech savvy people, here is a quick overview of the tech stack used on this website: WordPress as […]"
-image: "/images/uploads/2024/10/hero-768x430.jpg"
+image: "/images/news/website-launch-card.jpg"
 ---
 
-![](/images/uploads/2024/10/hero-1024x574.jpg)
+![](/images/news/website-launch.jpg)
 
 The [kriegegroup.univie.ac.at](https://kriegegroup.univie.ac.at) website has officially launched on 11th November 2024. Its aim is to consolidate the information about the [Machine Learning with Graphs](https://dm.cs.univie.ac.at/index.php?id=1911) work group to make our research more accessible to interested individuals.
 

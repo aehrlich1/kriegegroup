@@ -4,7 +4,7 @@ url: "/paper-accepted-at-aaai-2025/"
 date: 2024-12-11T15:25:39
 author: "Lorenz Kummer"
 summary: "We are excited to announce the acceptance of our recent work “Crossfire: An Elastic Defense Framework for Graph Neural Networks under Bit Flip Attacks” by Lorenz Kummer, Samir Moustafa, Wilfried Gansterer and Nils Kriege at the 39th Annual AAAI Conference on Artificial Intelligence, which will take place in Philadelphia, Pennsylvania, USA from February 25 – […]"
-image: "/images/uploads/2024/12/aaai-768x416.png"
+image: "/images/news/aaai-2025-paper.png"
 ---
 
 We are excited to announce the acceptance of our recent work “Crossfire: An Elastic Defense Framework for Graph Neural Networks under Bit Flip Attacks” by *Lorenz Kummer, Samir Moustafa, Wilfried Gansterer* and *Nils Kriege* at the 39th Annual AAAI Conference on Artificial Intelligence, which will take place in Philadelphia, Pennsylvania, USA from February 25 – March 4, 2025!

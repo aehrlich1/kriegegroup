@@ -1,5 +1,5 @@
 {{ define "main" }}
-<header class="page-hero"><div><div><p class="section-label">Updates and announcements</p><h1>News</h1><p>Research highlights, awards, events, and life in the Kriege Group.</p></div><img src="{{ "images/favicon.png" | relURL }}" alt=""></div></header>
+<header class="page-hero"><div><div><p class="section-label">Updates and announcements</p><h1>News</h1><p>Research highlights, awards, events, and life in the Kriege Group.</p></div></div></header>
 <section class="section">
   <div class="news-grid news-archive">
     {{ range .Paginator.Pages }}{{ partial "news-card.html" . }}{{ end }}
