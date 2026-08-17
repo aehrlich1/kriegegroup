@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="article-shell news-article topic-article">
+  <header class="article-header">
+    <p class="section-label"><a href="{{ "teaching/" | relURL }}">Teaching</a></p>
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="article-content">{{ .Content }}</div>
+</article>
+{{ end }}

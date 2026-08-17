@@ -10,11 +10,6 @@
   </div>
 </header>
 <section class="publication-shell">
-  <div class="publication-toolbar">
-    <p>The list is generated directly from the project’s BibTeX bibliography.</p>
-    {{ with $bib }}<a class="button button-secondary" href="{{ .RelPermalink }}" download>Download BibTeX</a>{{ end }}
-  </div>
   {{ partial "publication-list.html" (dict "compact" false) }}
 </section>
 {{ end }}
-

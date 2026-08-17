@@ -155,7 +155,7 @@ tbody tr:last-child td{border-bottom:0}
 .article-content pre{overflow-x:auto;padding:1.2rem;border-radius:12px;background:#102a3a;color:#eef7fb}
 .article-content pre code{padding:0;background:none;color:inherit}
 .generic-page{max-width:1030px}
-.profile-page{max-width:1050px;padding-top:3.5rem}
+.profile-page{max-width:880px;padding-top:3.5rem}
 .profile-page .article-content>h1{margin-bottom:.25rem;font-size:clamp(1.75rem,3vw,2.45rem)}
 .profile-page .article-content h2{font-size:clamp(1.3rem,2vw,1.6rem)}
 .profile-media{float:left;width:230px;margin:1.2rem 3.2rem 2rem 0}

@@ -1,9 +1,8 @@
 ---
 title: "Your Own Idea!"
 url: "/your-own-idea/"
+layout: "topic"
 ---
-
-# Your Own Idea!
 
 Do you have a specific project in mind you want to investigate, that is not already listed on the thesis page? Then you can contact Prof. [Nils Kriege](mailto:nils.kriege@univie.ac.at) to propose your own project idea!
 
