@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $bib := resources.Get "publications.bib" }}
+<header class="page-hero">
+  <div>
+    <div>
+      <p class="section-label">Research output</p>
+      <h1>Publications</h1>
+      <p>Selected publications from members of the Kriege Group.</p>
+    </div>
+  </div>
+</header>
+<section class="publication-shell">
+  <div class="publication-toolbar">
+    <p>The list is generated directly from the project’s BibTeX bibliography.</p>
+    {{ with $bib }}<a class="button button-secondary" href="{{ .RelPermalink }}" download>Download BibTeX</a>{{ end }}
+  </div>
+  {{ partial "publication-list.html" (dict "compact" false) }}
+</section>
+{{ end }}
+

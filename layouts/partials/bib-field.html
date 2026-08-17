@@ -1,0 +1,6 @@
+{{- $entry := index . 0 -}}
+{{- $field := index . 1 -}}
+{{- $pattern := printf `(?mis)%s\s*=\s*[{\"]([^}\"]+)[}\"]` $field -}}
+{{- $matches := findRESubmatch $pattern $entry 1 -}}
+{{- if $matches -}}{{ index (index $matches 0) 1 | strings.TrimSpace }}{{- end -}}
+

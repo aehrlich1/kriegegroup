@@ -24,5 +24,6 @@ The generated site is written to `public/`.
 
 - General pages and profiles are in `content/`.
 - News articles are in `content/news/`.
+- Publications are maintained in `assets/publications.bib`; Hugo reads this file directly when building the Publications page and profile publication lists.
 - The landing page is in `layouts/index.html`.
 - Site-wide styling is in `static/css/main.css`.

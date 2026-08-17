@@ -165,6 +165,19 @@ tbody tr:last-child td{border-bottom:0}
 .profile-links span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .profile-page .article-content h3{clear:both;padding-top:1rem}
 
+.publication-shell{max-width:var(--max);margin:auto;padding:clamp(4.5rem,7vw,7rem) var(--pad)}
+.publication-toolbar{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;margin-bottom:3.5rem;padding-bottom:1.5rem;border-bottom:1px solid var(--line)}
+.publication-toolbar p{margin:0;color:var(--muted)}
+.publication-year{margin:3.5rem 0 0;padding-bottom:.8rem;border-bottom:1px solid var(--line);font-size:1.75rem}
+.publication-year:first-child{margin-top:0}
+.publication-entry{padding:1.7rem 0;border-bottom:1px solid var(--line)}
+.publication-list .publication-entry h3{margin:0 0 .55rem;padding:0;font-size:1.12rem;line-height:1.4}
+.publication-entry h3 a{color:var(--navy)}
+.publication-entry h3 a:hover{color:var(--blue-bright)}
+.publication-authors{margin-bottom:.35rem;color:#344957;font-size:.88rem}
+.publication-venue{margin:0;color:var(--muted);font-size:.82rem;font-style:italic}
+.publication-list-compact .publication-entry{padding:1.5rem 0}
+
 .site-footer{padding:5rem max(var(--pad),calc((100vw - var(--max))/2 + var(--pad))) 1.7rem;background:#061f30;color:#c9d9e2}
 .site-footer a{color:#d9edf8}
 .site-footer a:hover{color:#7dd3fc}
@@ -224,5 +237,6 @@ tbody tr:last-child td{border-bottom:0}
   .profile-media{float:none;width:min(100%,310px);margin:1.5rem 0 2.5rem}
   .profile-media>img{width:100%}
   .profile-links{justify-content:flex-start}
+  .publication-toolbar{align-items:flex-start;flex-direction:column}
   .footer-bottom{flex-direction:column}
 }

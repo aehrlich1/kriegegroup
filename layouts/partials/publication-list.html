@@ -1,0 +1,49 @@
+{{- $bib := resources.Get "publications.bib" -}}
+{{- $authorFilter := .author | default "" -}}
+{{- $compact := .compact | default false -}}
+{{- $publications := slice -}}
+
+{{- with $bib -}}
+  {{- $chunks := split (replace .Content "\r\n" "\n") "\n@" -}}
+  {{- range $index, $chunk := $chunks -}}
+    {{- $entry := $chunk -}}
+    {{- if gt $index 0 -}}{{- $entry = printf "@%s" $chunk -}}{{- end -}}
+    {{- if in $entry "@" -}}
+      {{- $title := partial "bib-field.html" (slice $entry "title") -}}
+      {{- $authors := partial "bib-field.html" (slice $entry "author") -}}
+      {{- $year := partial "bib-field.html" (slice $entry "year") -}}
+      {{- $booktitle := partial "bib-field.html" (slice $entry "booktitle") -}}
+      {{- $journal := partial "bib-field.html" (slice $entry "journal") -}}
+      {{- $publisher := partial "bib-field.html" (slice $entry "publisher") -}}
+      {{- $volume := partial "bib-field.html" (slice $entry "volume") -}}
+      {{- $pages := partial "bib-field.html" (slice $entry "pages") -}}
+      {{- $url := partial "bib-field.html" (slice $entry "url") -}}
+      {{- $doi := partial "bib-field.html" (slice $entry "doi") -}}
+      {{- if and (eq $url "") (ne $doi "") -}}{{- $url = printf "https://doi.org/%s" $doi -}}{{- end -}}
+      {{- if and (ne $title "") (or (eq $authorFilter "") (in $authors $authorFilter)) -}}
+        {{- $venue := $booktitle -}}
+        {{- if eq $venue "" -}}{{- $venue = $journal -}}{{- end -}}
+        {{- $publications = $publications | append (dict "title" $title "authors" $authors "year" $year "venue" $venue "publisher" $publisher "volume" $volume "pages" $pages "url" $url) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $publications = sort $publications "year" "desc" -}}
+<div class="publication-list{{ if $compact }} publication-list-compact{{ end }}">
+  {{- $currentYear := "" -}}
+  {{- range $publications -}}
+    {{- if and (not $compact) (ne .year $currentYear) -}}
+      <h2 class="publication-year">{{ .year }}</h2>
+      {{- $currentYear = .year -}}
+    {{- end -}}
+    <article class="publication-entry">
+      <h3>{{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+      <p class="publication-authors">{{ replace .authors " and " ", " }}</p>
+      <p class="publication-venue">{{ .venue }}{{ with .publisher }}, {{ . }}{{ end }}{{ with .volume }}, Vol. {{ . }}{{ end }}{{ with .pages }}, P. {{ replace . "--" "–" }}{{ end }}</p>
+    </article>
+  {{- else -}}
+    <p>No publications found.</p>
+  {{- end -}}
+</div>
+
