@@ -7,14 +7,23 @@ current: false
 role: ""
 weight: 100
 image: "/images/uploads/2025/09/52-DSC07042_scaled11.jpg"
+social:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/lorenz-kummer-573a0017a/"
+    icon: "linkedin"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=OhFnjr0AAAAJ&hl=de&oi=ao"
+    icon: "scholar"
+  - name: "DBLP"
+    url: "https://dblp.org/pid/298/2002.html"
+    icon: "dblp"
 ---
 
 ## Lorenz Kummer
 
 PhD Candidate in the work group Machine Learning with Graphs
 
-![](/images/uploads/2025/09/52-DSC07042_scaled11.jpg)
-
+{{< profile-media >}}
 
 
 

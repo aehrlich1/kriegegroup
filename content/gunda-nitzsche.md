@@ -11,7 +11,7 @@ image: "/images/uploads/2026/01/gunda.jpg"
 
 Administration in the work group Machine Learning with Graphs
 
-![](/images/uploads/2026/01/gunda.jpg)
+{{< profile-media >}}
 
 Research Group Data Mining\
 and Machine Learning

@@ -1,0 +1,16 @@
+{{ with .Page.Params.image }}
+<aside class="profile-media">
+  <img src="{{ . | relURL }}" alt="{{ $.Page.Title }}">
+  {{ with $.Page.Params.social }}
+  <nav class="profile-links" aria-label="{{ $.Page.Title }} profiles">
+    {{ range . }}
+      <a href="{{ .url }}" target="_blank" rel="noreferrer noopener" title="{{ .name }}">
+        <img src="{{ printf "images/icons/%s.svg" .icon | relURL }}" alt="">
+        <span>{{ .name }}</span>
+      </a>
+    {{ end }}
+  </nav>
+  {{ end }}
+</aside>
+{{ end }}
+

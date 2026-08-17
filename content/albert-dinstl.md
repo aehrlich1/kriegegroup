@@ -11,7 +11,7 @@ image: "/images/uploads/2025/06/albert_dinstl.jpg"
 
 Research Assistant in the work group Machine Learning with Graphs
 
-![A picture of Albert Dinstl](/images/uploads/2025/06/albert_dinstl.jpg)
+{{< profile-media >}}
 
 Research Group Data Mining\
 and Machine Learning

@@ -7,14 +7,20 @@ current: true
 role: "External PhD Candidate"
 weight: 20
 image: "/images/uploads/2024/08/anatol-e1724408990997.jpg"
+social:
+  - name: "LinkedIn"
+    url: "https://at.linkedin.com/in/anatol-ehrlich-4667a4130"
+    icon: "linkedin"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=NgIqXuMAAAAJ&hl=en"
+    icon: "scholar"
 ---
 
 ## Anatol Ehrlich
 
 PhD Candidate in the work group Machine Learning with Graphs
 
-![Image of Anatol Ehrlich in a shirt.](/images/uploads/2024/08/anatol-e1724408990997.jpg)
-
+{{< profile-media >}}
 
 
 Research Group Data Mining\

@@ -7,14 +7,26 @@ current: false
 role: ""
 weight: 100
 image: "/images/uploads/2025/05/out_2.jpg"
+social:
+  - name: "LinkedIn"
+    url: "https://at.linkedin.com/in/franka-bause-032111283"
+    icon: "linkedin"
+  - name: "GitHub"
+    url: "https://github.com/frareba"
+    icon: "github"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=UTQlpH8AAAAJ&hl=de"
+    icon: "scholar"
+  - name: "DBLP"
+    url: "https://dblp.org/pid/234/8688.html"
+    icon: "dblp"
 ---
 
 ## Dr. Franka Bause
 
 Postdoc in the work group Machine Learning with Graphs
 
-![A picture of Franka Bause](/images/uploads/2025/05/out_2.jpg)
-
+{{< profile-media >}}
 
 
 

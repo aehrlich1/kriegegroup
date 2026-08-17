@@ -11,7 +11,7 @@ image: "/images/uploads/2024/10/charlotte.jpg"
 
 Administration in the work group Machine Learning with Graphs
 
-![Charlotte Zott, black and white image.](/images/uploads/2024/10/charlotte.jpg)
+{{< profile-media >}}
 
 Research Group Data Mining\
 and Machine Learning

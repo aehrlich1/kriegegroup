@@ -11,7 +11,7 @@ image: "/images/uploads/2026/05/daniel_kovacic.jpeg"
 
 Research Assistant in the work group Machine Learning with Graphs
 
-![](/images/uploads/2026/05/daniel_kovacic.jpeg)
+{{< profile-media >}}
 
 Research Group Data Mining\
 and Machine Learning

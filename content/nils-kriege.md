@@ -7,14 +7,23 @@ current: true
 role: "Group Leader"
 weight: 10
 image: "/images/uploads/2026/05/Nils_Kriege_pcu-small2.jpg"
+social:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/nils-kriege-403b95384/"
+    icon: "linkedin"
+  - name: "DBLP"
+    url: "https://dblp.uni-trier.de/pid/97/8178.html"
+    icon: "dblp"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=wGT17PcAAAAJ"
+    icon: "scholar"
 ---
 
 ## Assoz. Prof. Dr. Nils M. Kriege
 
 Head of the work group Machine Learning with Graphs
 
-![](/images/uploads/2026/05/Nils_Kriege_pcu-small2.jpg)
-
+{{< profile-media >}}
 
 
 
