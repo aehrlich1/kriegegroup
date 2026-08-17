@@ -1,0 +1,96 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="hero-kicker">University of Vienna · Faculty of Computer Science</p>
+      <h1>Machine Learning <span>with Graphs</span></h1>
+      <p class="hero-intro">We develop principled machine learning methods for structured data—connecting graph theory, algorithms, and real-world applications.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#research">Explore our research</a>
+        <a class="button button-secondary" href="#team">Meet the team</a>
+      </div>
+    </div>
+    <figure class="hero-visual">
+      <img src="{{ "images/hero.jpg" | relURL }}" alt="Decorative graph network">
+      <figcaption>Machine learning · Graph theory · Algorithmics</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="research" class="section research-intro">
+  <div class="section-heading">
+    <div><p class="section-label">What we study</p><h2>Research</h2></div>
+    <img src="{{ "images/petersen_graph.svg" | relURL }}" alt="Petersen graph">
+  </div>
+  <div class="measure">
+    <p>Graphs and networks are ubiquitous in various domains, from chem- and bioinformatics to computer vision and social network analysis. Machine learning with graphs aims to exploit the potential of the growing amount of structured data in all these areas to automate, accelerate, and improve decision-making. Analyzing graph data requires solving problems at the boundaries of machine learning, graph theory, and algorithmics.</p>
+    <p>Our ambition is to develop methods that are useful for solving concrete problems in real-world applications, especially in drug discovery. We focus on the development of new machine learning and data mining methods for structured data related to the following broad topics:</p>
+  </div>
+  <div class="research-grid">
+    <article>
+      <img src="{{ "images/graph_embedding.png" | relURL }}" alt="A graph embedded in latent space by a graph neural network">
+      <h3>Graph Embedding</h3>
+      <p>Graph embedding techniques map graphs into a vector space, such that similar graphs are represented by close vectors. We investigate graph kernels and graph neural networks (GNNs) for embedding graphs to solve learning problems. While graph kernels allow operating implicitly in high-dimensional feature spaces, graph neural networks optimize the feature representation for the learning task. We design, theoretically analyze, implement, and empirically evaluate graph embedding methods.</p>
+    </article>
+    <article>
+      <img src="{{ "images/graph_matching.png" | relURL }}" alt="Substructure matching between two graphs">
+      <h3>Graph Matching</h3>
+      <p>The term graph matching refers to methods for finding a correspondence between the nodes of two graphs that optimally preserves their node/edge features and adjacency structure. We study exact polynomial-time algorithms for restricted graph classes, heuristics for general large graphs, and learning-based graph matching techniques.</p>
+    </article>
+    <article>
+      <img src="{{ "images/graph_search.svg" | relURL }}" alt="Substructure matching in molecules">
+      <h3>Graph Search</h3>
+      <p>Information systems with graph-structured data require custom methods for specifying, identifying, and retrieving the desired information. We develop efficient methods and index structures for searching large databases of graphs, e.g., regarding similarity or subgraph containment.</p>
+    </article>
+  </div>
+</section>
+
+<section id="team" class="section section-tint">
+  <div class="section-heading"><div><p class="section-label">Our group</p><h2>Meet the team</h2></div></div>
+  <div class="team-grid">
+    {{ range where site.RegularPages "Params.current" true }}
+      <article class="person-card">
+        <a href="{{ .RelPermalink }}"><img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"></a>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Params.role }}</p>
+        <a class="text-link" href="{{ .RelPermalink }}">Read more</a>
+      </article>
+    {{ end }}
+  </div>
+  <div class="alumni">
+    <h3>Alumni</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Name</th><th>Position</th><th>Current Position</th></tr></thead>
+        <tbody>
+          <tr><td><a href="{{ "lorenz-kummer/" | relURL }}">Dr. Lorenz Kummer</a></td><td>PhD Candidate (2022 – 2026)</td><td>AI Expert at A1 Telekom Austria AG</td></tr>
+          <tr><td><a href="https://frareba.github.io/">Dr. Franka Bause</a></td><td>PhD Candidate (2021 – 2026)</td><td><a href="https://cispa.de/">PostDoc at CISPA Helmholtz Center</a></td></tr>
+          <tr><td><a href="{{ "albert-dinstl/" | relURL }}">Albert Dinstl</a></td><td>Research Assistant (2025 – 2026)</td><td></td></tr>
+          <tr><td><a href="{{ "ole-schluter/" | relURL }}">Ole Schlüter</a></td><td>Research Assistant (2024 – 2025)</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title-row">
+    <div><p class="section-label">From the group</p><h2>Recent News</h2></div>
+    <a class="text-link" href="{{ "news/" | relURL }}">See All News</a>
+  </div>
+  <div class="news-grid">
+    {{ range first 3 (where site.RegularPages "Section" "news") }}
+      {{ partial "news-card.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+<section id="join" class="section join-section">
+  <div class="section-heading"><div><p class="section-label">Work with us</p><h2>Join the group</h2></div></div>
+  <div class="join-intro">We are a collaborative and ambitious research team advancing machine learning with graphs through both theoretical analysis and methodological innovation for applications.</div>
+  <div class="join-grid">
+    <article><h3>PhD Students</h3><p>We regularly have open positions for doctoral researchers. We are open to working with outstanding students from different areas, including computer science, and mathematics. If you are interested, please send your CV and up-to-date transcript of records to Nils Kriege.</p></article>
+    <article><h3>Master’s and Bachelor’s Students</h3><p>We are happy to supervise students at the University of Vienna who are interested in our research. An overview of possible topics for theses offered by our group can be found in the <a href="{{ "teaching/" | relURL }}">teaching</a> section or on the Univie <a href="https://dm.cs.univie.ac.at/theses/open-topics/">Open Topics page</a>. Please get in touch with Nils Kriege or the specified contact persons and send an up-to-date transcript of records.</p></article>
+  </div>
+</section>
+{{ end }}

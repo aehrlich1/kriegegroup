@@ -1,0 +1,13 @@
+baseURL = "https://kriegegroup.univie.ac.at/"
+locale = "en_US"
+title = "Kriege Group"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 9
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "Machine Learning with Graphs at the University of Vienna"

@@ -1,0 +1,19 @@
+{{ define "main" }}
+<header class="page-hero"><div><div><p class="section-label">Updates and announcements</p><h1>News</h1><p>Research highlights, awards, events, and life in the Kriege Group.</p></div><img src="{{ "images/favicon.png" | relURL }}" alt=""></div></header>
+<section class="section">
+  <div class="news-grid news-archive">
+    {{ range .Paginator.Pages }}{{ partial "news-card.html" . }}{{ end }}
+  </div>
+  {{ template "pagination" . }}
+</section>
+{{ end }}
+
+{{ define "pagination" }}
+  {{ with .Paginator }}{{ if gt .TotalPages 1 }}
+  <nav class="pagination" aria-label="News pages">
+    {{ with .Prev }}<a href="{{ .URL }}">← Previous</a>{{ end }}
+    <span>Page {{ .PageNumber }} of {{ .TotalPages }}</span>
+    {{ with .Next }}<a href="{{ .URL }}">Next →</a>{{ end }}
+  </nav>
+  {{ end }}{{ end }}
+{{ end }}

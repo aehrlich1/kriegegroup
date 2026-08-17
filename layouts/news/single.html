@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="article-shell">
+  <header class="article-header">
+    <p class="section-label"><a href="{{ "news/" | relURL }}">News</a></p>
+    <h1>{{ .Title }}</h1>
+    <p class="meta">{{ .Date.Format "January 2, 2006" }} · {{ .Params.author }}</p>
+  </header>
+  {{ with .Params.image }}<img class="article-image" src="{{ . | relURL }}" alt="{{ $.Title }}">{{ end }}
+  <div class="article-content">{{ .Content }}</div>
+</article>
+{{ end }}

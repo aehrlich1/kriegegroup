@@ -1,0 +1,11 @@
+<article class="news-card">
+  <a class="news-image" href="{{ .RelPermalink }}">
+    {{ with .Params.image }}<img src="{{ . | relURL }}" alt="{{ $.Title }}">{{ end }}
+  </a>
+  <div class="news-body">
+    <p class="meta">{{ .Date.Format "January 2, 2006" }} · {{ .Params.author }}</p>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary | plainify | truncate 210 }}</p>
+    <a class="text-link" href="{{ .RelPermalink }}">Read article <span aria-hidden="true">→</span></a>
+  </div>
+</article>
