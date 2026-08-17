@@ -6,7 +6,7 @@
   <title>{{ if .IsHome }}{{ site.Title }} – Machine Learning with Graphs{{ else }}{{ .Title }} – {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ .Description | default site.Params.description }}">
   <link rel="icon" href="{{ "images/favicon.png" | relURL }}">
-  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}?v={{ now.Unix }}">
 </head>
 <body>
   {{ partial "header.html" . }}

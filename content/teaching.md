@@ -7,34 +7,38 @@ aliases:
   - "/tag/bachelor/"
   - "/tag/master/"
   - "/tag/practical-course/"
+courses:
+  - term: "Winter Term 2025"
+    items:
+      - title: "Data Mining"
+        url: "https://ufind.univie.ac.at/en/course.html?lv=052311&semester=2025W"
+        code: "052311"
+        format: "VU"
+      - title: "Graph Learning"
+        url: "https://ufind.univie.ac.at/en/course.html?lv=052322&semester=2025W"
+        code: "052322"
+        format: "VU"
+      - title: "Introduction to Machine Learning"
+        url: "https://ufind.univie.ac.at/en/course.html?lv=053613&semester=2025W"
+        code: "053613"
+        format: "VU"
+  - term: "Summer Term 2026"
+    items:
+      - title: "Scientific Data Management"
+        url: "https://ufind.univie.ac.at/en/course.html?lv=052813&semester=2026S"
+        code: "052813"
+        format: "VU"
+thesis_topics:
+  - title: "Common Subgraph Problems in Tree-Like Graphs"
+    url: "/common-subgraph-problems-in-tree-like-graphs/"
+    levels: ["Bachelor", "Master", "Practical Course"]
+  - title: "Graph Representation Learning for Predicting Solvation Parameters of Ionic Liquids"
+    url: "/graph-representation-learning-for-predicting-solvation-parameters-of-ionic-liquids/"
+    levels: ["Master"]
+  - title: "The Complexity of Computing the Graph Edit Distance"
+    url: "/the-complexity-of-computing-the-graph-edit-distance/"
+    levels: ["Bachelor", "Master", "Practical Course"]
+  - title: "Your Own Idea!"
+    url: "/your-own-idea/"
+    levels: ["Bachelor", "Master", "Practical Course"]
 ---
-
-## Courses
-
-### Winter Term 25
-
-- [Data Mining](https://ufind.univie.ac.at/en/course.html?lv=052311&semester=2025W) — 052311 VU
-- [Graph Learning](https://ufind.univie.ac.at/en/course.html?lv=052322&semester=2025W) — 052322 VU
-- [Introduction to Machine Learning](https://ufind.univie.ac.at/en/course.html?lv=053613&semester=2025W) — 053613 VU
-
-### Summer Term 26
-
-- [Scientific Data Management](https://ufind.univie.ac.at/en/course.html?lv=052813&semester=2026S) — 052813 VU
-
-## Thesis Topics
-
-### [Common Subgraph Problems in Tree-Like Graphs](/common-subgraph-problems-in-tree-like-graphs/)
-
-Bachelor · Master · Practical Course
-
-### [Graph Representation Learning for Predicting Solvation Parameters of Ionic Liquids](/graph-representation-learning-for-predicting-solvation-parameters-of-ionic-liquids/)
-
-Master
-
-### [The Complexity of Computing the Graph Edit Distance](/the-complexity-of-computing-the-graph-edit-distance/)
-
-Bachelor · Master · Practical Course
-
-### [Your Own Idea!](/your-own-idea/)
-
-Bachelor · Master · Practical Course

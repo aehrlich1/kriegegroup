@@ -8,7 +8,52 @@
     </div>
   </div>
 </header>
-<article class="article-shell generic-page">
-  <div class="article-content">{{ .Content }}</div>
-</article>
+<div class="teaching-shell">
+  <section class="teaching-block" aria-labelledby="courses-heading">
+    <header class="teaching-heading">
+      <div>
+        <p class="section-label">Course catalogue</p>
+        <h2 id="courses-heading">Courses</h2>
+      </div>
+    </header>
+    <div class="teaching-term-grid">
+      {{ range .Params.courses }}
+      <article class="teaching-term">
+        <h3>{{ .term }}</h3>
+        <ul class="teaching-course-list">
+          {{ range .items }}
+          <li>
+            <a href="{{ .url }}">
+              <span>{{ .title }}</span>
+              <small><strong>{{ .code }}</strong> {{ .format }}</small>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="teaching-block teaching-theses" aria-labelledby="theses-heading">
+    <header class="teaching-heading">
+      <div>
+        <p class="section-label">Student projects</p>
+        <h2 id="theses-heading">Thesis Topics</h2>
+      </div>
+      <p>Open topics for students interested in graph algorithms and machine learning.</p>
+    </header>
+    <div class="teaching-topic-grid">
+      {{ range .Params.thesis_topics }}
+      <a class="teaching-topic" href="{{ .url | relURL }}">
+        <h3>{{ .title }}</h3>
+        <span class="teaching-levels">
+          {{ range .levels }}<span>{{ . }}</span>{{ end }}
+        </span>
+        <span class="teaching-topic-link">View topic <span aria-hidden="true">→</span></span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+</div>
 {{ end }}
