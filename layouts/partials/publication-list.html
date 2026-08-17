@@ -16,6 +16,7 @@
       {{- $journal := partial "bib-field.html" (slice $entry "journal") -}}
       {{- $publisher := partial "bib-field.html" (slice $entry "publisher") -}}
       {{- $volume := partial "bib-field.html" (slice $entry "volume") -}}
+      {{- $number := partial "bib-field.html" (slice $entry "number") -}}
       {{- $pages := partial "bib-field.html" (slice $entry "pages") -}}
       {{- $url := partial "bib-field.html" (slice $entry "url") -}}
       {{- $doi := partial "bib-field.html" (slice $entry "doi") -}}
@@ -23,7 +24,7 @@
       {{- if and (ne $title "") (or (eq $authorFilter "") (in $authors $authorFilter)) -}}
         {{- $venue := $booktitle -}}
         {{- if eq $venue "" -}}{{- $venue = $journal -}}{{- end -}}
-        {{- $publications = $publications | append (dict "title" $title "authors" $authors "year" $year "venue" $venue "publisher" $publisher "volume" $volume "pages" $pages "url" $url) -}}
+        {{- $publications = $publications | append (dict "title" $title "authors" $authors "year" $year "venue" $venue "publisher" $publisher "volume" $volume "number" $number "pages" $pages "url" $url) -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -40,10 +41,9 @@
     <article class="publication-entry">
       <h3>{{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
       <p class="publication-authors">{{ replace .authors " and " ", " }}</p>
-      <p class="publication-venue">{{ .venue }}{{ with .publisher }}, {{ . }}{{ end }}{{ with .volume }}, Vol. {{ . }}{{ end }}{{ with .pages }}, P. {{ replace . "--" "–" }}{{ end }}</p>
+      <p class="publication-venue">{{ .venue }}{{ with .publisher }}, {{ . }}{{ end }}{{ with .volume }}, Vol. {{ . }}{{ end }}{{ with .number }}({{ . }}){{ end }}{{ with .pages }}, P. {{ replace . "--" "–" }}{{ end }}</p>
     </article>
   {{- else -}}
     <p>No publications found.</p>
   {{- end -}}
 </div>
-
